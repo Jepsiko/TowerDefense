@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01019a6befecdda429f49bdac22ea424, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  map: {fileID: 11400000, guid: 23449410f73413644980e1924ec8cc20, type: 2}
+  waves:
+  - batches:
+    - enemy: {fileID: 1195660850452537019, guid: e48b4242e86b3a4498aa7583de26c04c, type: 3}
+      size: 10
+      interval: 1
+    - enemy: {fileID: 1195660850452537019, guid: e48b4242e86b3a4498aa7583de26c04c, type: 3}
+      size: 5
+      interval: 0.5
+  - batches:
+    - enemy: {fileID: 1195660850452537019, guid: e48b4242e86b3a4498aa7583de26c04c, type: 3}
+      size: 20
+      interval: 0.2
+  - batches:
+    - enemy: {fileID: 3746173956850611294, guid: 213ecb29b4c0ad042846c00ad8d9ebea, type: 3}
+      size: 50
+      interval: 0.2
+  - batches:
+    - enemy: {fileID: 6831531166378809550, guid: ffc4289f6c1d43f499c6420540647853, type: 3}
+      size: 1
+      interval: 0
